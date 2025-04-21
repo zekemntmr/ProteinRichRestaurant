@@ -121,7 +121,7 @@ public class RestaurantSystemLogin {
         System.out.println("Total Bill: " + total + "pesos");
     }
 
-    static String caesarEncrypt(String input) {
+   public static String caesarEncrypt(String input) {
         StringBuilder encrypted = new StringBuilder();
         for (char c : input.toCharArray()) {
             encrypted.append((char) (c + 3));
